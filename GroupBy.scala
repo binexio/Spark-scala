@@ -31,7 +31,7 @@ df.groupBy("department").sum("salary").show()
 
 // COMMAND ----------
 
-// Suma de empleados por departamento
+// Contar cuantos empleados hay por departamento
 df.groupBy("department").count().show()
 
 // COMMAND ----------
